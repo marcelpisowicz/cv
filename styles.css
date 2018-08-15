@@ -1,0 +1,181 @@
+@font-face {
+    font-family: Panton;
+    src: url(fonts/Panton-Regular.otf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(fonts/lato-Regular.ttf);
+}
+
+body {
+    background: black;
+    font-family: "Panton", Times, serif;
+}
+
+#about_block {
+    margin-right: 10%;
+}
+
+#main_paper {
+    height: 1754px;
+    width: 1240px;
+    background: whitesmoke;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#header {
+    height: 27%;
+    width: 100%;
+    background: #ebebeb;
+}
+
+.header {
+    font-weight: bold;
+    font-size: 220%
+}
+
+#header_table {
+    width: 100%;
+    height: 100%;
+}
+
+#header_table tr td {
+    width: 33%;
+}
+
+#avatar {
+    padding: 5%;
+    width: 70%;
+    border-radius: 100%;
+}
+
+#avatar_block {
+    padding-bottom: 4%;
+    text-align: center;
+}
+
+.contact_icon {
+    margin-bottom: 5%;
+    margin-top: 5%;
+    height: 19%;
+}
+
+#contact tr td:nth-child(1) {
+    width: 10%;
+}
+
+#contact {
+    font-size: 140%;
+}
+
+#about_me {
+    font-size: 140%;
+    line-height: 160%;
+}
+
+.text {
+    font-size: 140%;
+}
+
+#about_me_header {
+    margin-bottom: 5%;
+}
+
+#left_part {
+    background: white;
+}
+
+#right_part {
+    background: whitesmoke;
+}
+
+.page {
+    height: 73%;
+    width: 50%;
+    float: left;
+}
+
+.section {
+    margin: 10%;
+}
+
+span {
+    font-size: 140%;
+}
+
+span.description {
+    font-size: 120%;
+}
+
+.section > table {
+    width: 100%;
+}
+
+.section > .header {
+    margin-bottom: 2%;
+}
+
+.section_info {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.section_table tr td:nth-child(1) {
+    width: 25%;
+}
+
+.section_table tr td {
+    vertical-align: top;
+}
+
+.section_table {
+    border-collapse: separate;
+    border-spacing: 0 1.5em;
+}
+
+.star {
+    background-image: url(img/star_full.png);
+    height: 50px;
+    background-size: contain;
+    float: left;
+    width: 50px;
+}
+
+.star.half {
+    background-image: url(img/star_half.png);
+}
+
+.star.empty {
+    background-image: url(img/star_empty.png);
+}
+
+#skills .section_table span {
+    font-size: 110%;
+}
+
+#skills .section_table tr td:nth-child(1) {
+    vertical-align: middle;
+}
+
+.star_section {
+    float: right;
+}
+
+.marker {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-image: url(img/star_full.png);
+}
+
+#extra .section_table tr td:nth-child(1) {
+    width: 5%;
+    padding-right: 5%;
+}
+
+#extra .section_table {
+    border-spacing: 0 1em;
+}
